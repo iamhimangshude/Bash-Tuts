@@ -12,8 +12,8 @@ import time
 For automation, you can set alias in the customBashPrompt.sh file!
 """
 
-# API_KEY = os.environ.get("GENAI_API_KEY", "Not Found")
-API_KEY = os.environ.get("DEHIM_GENAI_API_KEY", "Not Found")
+API_KEY = os.environ.get("GENAI_API_KEY", "Not Found")
+
 
 def strip_markdown(text):
     return re.sub(r"\*\*(.*?)\*\*", r"\1", text).strip()
