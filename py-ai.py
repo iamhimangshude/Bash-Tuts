@@ -99,8 +99,8 @@ if __name__ == "__main__":
                     print()
 
                 case 4:
-                    with open('genai-chat-history.txt', 'w') as f:
-                        f.write(str(chat_history))
+                    with open('genai-chat-history.txt', 'a') as histFile:
+                        histFile.write(str(chat_history))
                     print()
                 
                 case 0:
