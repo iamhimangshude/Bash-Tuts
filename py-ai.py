@@ -58,7 +58,7 @@ def chat_api_call(prompt: str = "Hello", history: list = [], config: dict = {}) 
 
 
 if __name__ == "__main__":
-    chat_history: list = None
+    chat_history: list = list()
     ai_config = {
         "temperature": 0.5,
         "max_output_tokens": 2048,
